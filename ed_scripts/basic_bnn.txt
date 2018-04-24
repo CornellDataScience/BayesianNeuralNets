@@ -1,4 +1,4 @@
-INPUT       :   NONE    :   64      :   NONE            |
-FF          :   RELU    :   64,256  :   NORMAL,NORMAL   |
-FF          :   SOFTMAX :   256,10  :   NORMAL,NORMAL   |
-OUT(KLpq)   :   NONE    :   10      :   CATEGORICAL
+INPUT       :   NONE    :   1       :   NONE            |
+FF          :   RELU    :   1,32    :   NORMAL,NORMAL   |
+FF          :   SOFTMAX :   32,1    :   NORMAL,NORMAL   |
+OUT(KLqp)   :   NONE    :   1       :   NORMAL
