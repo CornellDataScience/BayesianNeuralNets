@@ -1,4 +1,6 @@
 INPUT       :   NONE    :   1       :   NONE            |
 FF          :   RELU    :   1,32    :   NORMAL,NORMAL   |
-FF          :   SOFTMAX :   32,1    :   NORMAL,NORMAL   |
+FF          :   RELU    :   32, 32  :   NORMAL, NORMAL  |
+FF          :   RELU    :   32, 32  :   NORMAL, NORMAL  |
+FF          :   RELU    :   32,1    :   NORMAL,NORMAL   |
 OUT(KLqp)   :   NONE    :   1       :   NORMAL

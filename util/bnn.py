@@ -20,7 +20,8 @@ infs = {
 
 outtypes = {
     'CATEGORICAL': md.Categorical,
-    'NORMAL': lambda x: md.Normal(x, 0.01)
+    'NORMAL': lambda x: md.Normal(x, 0.1),
+
 }
 
 
